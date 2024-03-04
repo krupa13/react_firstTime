@@ -1,7 +1,50 @@
-/* #parent, #child {
-    background: gray;
-    color: white;
-    padding: 20px 20px;
-    width: 300px;
-    margin-left: 30px;
-} */
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav-items {
+    padding: 30px 40px 30px 0px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin-right: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card {
+    width: 200px;
+    height: 320px;
+    padding: 5px;
+    margin: 5px;
+}
+.res-card:hover {
+    border: 1px solid black;
+}
+.res-card > h3, .res-card > h4 {
+    margin: 5px 0 5px 0;
+}
+.search {
+    padding: 10px;
+}
+.res-logo {
+    width: 100%;
+}
+
+.filter-btn {
+    margin: 5px 0 5px 0;
+}

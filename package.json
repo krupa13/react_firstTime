@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Krupa Nandh",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krupa13/react_firstTime.git"
+  },
+  "author": "Krupa Nandh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krupa13/react_firstTime/issues"
+  },
+  "homepage": "https://github.com/krupa13/react_firstTime#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browsersList": [
+    "Last 5 versions"
+  ]
+}
