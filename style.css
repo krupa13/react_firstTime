@@ -28,9 +28,9 @@
 
 .res-card {
     width: 200px;
-    height: 320px;
+    height: 360px;
     padding: 5px;
-    margin: 5px;
+    margin: 10px 14px 10px 10px;
 }
 .res-card:hover {
     border: 1px solid black;
@@ -43,8 +43,27 @@
 }
 .res-logo {
     width: 100%;
+    max-height: 160px;
 }
 
-.filter-btn {
-    margin: 5px 0 5px 0;
+.filter {
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+
+.search-filter {
+    margin-right: 10px;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    width: 200px;
+    height: 450px;
+    background-color: #f0f0f0;
+    margin: 15px 14px 10px 10px;
+    padding: 5px;
 }
