@@ -23,6 +23,9 @@ const Body = () => {
         );
         
         const result = await data.json();
+
+        console.log(result?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+
         setListOfRestuarents(result?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
         setFilteredRestuarents(result?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     };

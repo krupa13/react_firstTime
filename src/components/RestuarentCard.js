@@ -9,7 +9,7 @@ const RestaurentCard = (props) => {
         locality,
         costForTwo,
         avgRating,
-        deliveryTime
+        sla
     } = resData?.info
     return (
         <div className="res-card" style={{backgroundColor: "#f0f0f0"}}>
@@ -23,7 +23,7 @@ const RestaurentCard = (props) => {
             <h4>{locality}</h4>
             <h4>{costForTwo}</h4>
             <h4>{avgRating} Stars</h4>
-            <h4>{deliveryTime} minutes</h4>
+            <h4>{sla?.slaString}</h4>
         </div>
     );
 }
