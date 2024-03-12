@@ -38,6 +38,10 @@
 .res-card > h3, .res-card > h4 {
     margin: 5px 0 5px 0;
 }
+.res-link {
+    text-decoration: none;
+    color: black;
+}
 .search {
     padding: 10px;
 }
@@ -66,4 +70,9 @@
     background-color: #f0f0f0;
     margin: 15px 14px 10px 10px;
     padding: 5px;
+}
+
+.user-details {
+    padding: 10px;
+    border: 1px solid black;
 }
